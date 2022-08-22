@@ -9,4 +9,12 @@ body#databaseRecordPage {
     // hide last editor
     display: none;
   }
+
+  div[itemtype="http://schema.org/Thing"] {
+    // record title
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-column-gap: 1em;
+    grid-template-areas: "sidebar main";
+  }
 }

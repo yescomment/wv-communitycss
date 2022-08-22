@@ -1,0 +1,12 @@
+// DIRECTORY
+body#databaseRecordsPage {
+
+}
+
+// INDIVIDUAL PROFILE
+body#databaseRecordPage {
+  .content-header {
+    // hide last editor
+    display: none;
+  }
+}

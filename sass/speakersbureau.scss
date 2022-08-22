@@ -26,7 +26,6 @@ body#databaseRecordPage {
 
   .h-record-field-row-for-I_LIVE_IN .h-record-field-value::before {
     content: "from ";
-    font-style: italic;
   }
 
   .h-record-field-row-for-TITLE,
@@ -34,7 +33,6 @@ body#databaseRecordPage {
     color: #2a2a68;
     font-weight: bold;
     margin: 0;
-    font-size: 2em;
   }
 
   div[itemtype="http://schema.org/Thing"] {

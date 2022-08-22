@@ -5,6 +5,11 @@ body#databaseRecordsPage {
 
 // INDIVIDUAL PROFILE
 body#databaseRecordPage {
+  .h-record-field-label {
+    color: #2a2a68;
+    font-weight: bold;
+  }
+
   .content-header {
     // hide last editor
     display: none;

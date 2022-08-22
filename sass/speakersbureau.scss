@@ -11,9 +11,9 @@ body#databaseRecordPage {
   }
 
   // field labels to hide
-  .record-field-row-for-TITLE,
-  .record-field-row-for-I_LIVE_IN,
-  .record-field-row-for-HEADSHOT {
+  .h-record-field-row-for-TITLE,
+  .h-record-field-row-for-I_LIVE_IN,
+  .h-record-field-row-for-HEADSHOT {
     .h-record-field-label {
       display: none;
     }
@@ -27,14 +27,14 @@ body#databaseRecordPage {
     grid-template-areas: "sidebar main";
   }
 
-  .record-field-row-for-TITLE,
-  .record-field-row-for-I_LIVE_IN,
-  .record-field-row-for-HEADSHOT,
-  .record-field-row-for-LINK_TO_WEBSITE,
-  .record-field-row-for-LINKEDIN,
-  .record-field-row-for-TWITTER,
-  .record-field-row-for-INSTAGRAM,
-  .record-field-row-for-FACEBOOK {
+  .h-record-field-row-for-TITLE,
+  .h-record-field-row-for-I_LIVE_IN,
+  .h-record-field-row-for-HEADSHOT,
+  .h-record-field-row-for-LINK_TO_WEBSITE,
+  .h-record-field-row-for-LINKEDIN,
+  .h-record-field-row-for-TWITTER,
+  .h-record-field-row-for-INSTAGRAM,
+  .h-record-field-row-for-FACEBOOK {
     grid-area: sidebar;
   }
 }

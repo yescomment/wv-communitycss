@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "build": "sass scss:public",
+    "dev": "sass --watch scss:public"
+  },
+  "devDependencies": {
+    "sass": "^1.54.5"
+  }
+}

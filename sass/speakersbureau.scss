@@ -88,19 +88,19 @@ body#databaseRecordPage.h-page-with-database-speakers-bureau {
   a[href*="//twitter.com/"]::before {
     font-size: 1rem;
     font-family: font_awesome_6_brandsregular;
-    content: "\f16d"; // square-instagram
+    content: "\e055"; // square-instagram
   }
 
   a[href*="//instagram.com/"]::before {
     font-size: 1rem;
     font-family: font_awesome_6_brandsregular;
-    content: "\f082"; // square-instagram
+    content: "\e055"; // square-instagram
   }
 
   a[href*="//linkedin.com/"]::before {
     font-size: 1rem;
     font-family: font_awesome_6_brandsregular;
-    content: "\f08c"; // square-linkedin
+    content: "\f08c"; // linkedin (no square variant)
   }
 
   a[href*="//facebook.com/"]::before {
@@ -112,6 +112,6 @@ body#databaseRecordPage.h-page-with-database-speakers-bureau {
   a[href*="//tiktok.com/"]::before {
     font-size: 1rem;
     font-family: font_awesome_6_brandsregular;
-    content: "\f082"; // square-tiktok
+    content: "\e07b"; // tiktok (no square variant as of 6.1)
   }
 }

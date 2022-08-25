@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'font_awesome_6_brandsregular';
+  src: url('fonts/fa-brands-regular.woff2') format('woff2'),
+       url('fonts/fa-brands-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 // DIRECTORY
 body#databaseRecordsPage.h-page-with-database-speakers-bureau {
 
@@ -65,4 +74,7 @@ body#databaseRecordPage.h-page-with-database-speakers-bureau {
     grid-column: 2;
   }
 
+  .icon {
+    font-family: font_awesome_6_brandsregular;
+  }
 }

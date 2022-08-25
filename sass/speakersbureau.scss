@@ -77,27 +77,40 @@ body#databaseRecordPage.h-page-with-database-speakers-bureau {
     font-family: font_awesome_6_brandsregular;
   }
 
+  a[href*="//twitter.com/"],
+  a[href*="//instagram.com/"],
+  a[href*="//linkedin.com/"],
+  a[href*="//facebook.com/"],
+  a[href*="//tiktok.com/"] {
+    font-size: 0; // ick
+  }
+
   a[href*="//twitter.com/"]::before {
+    font-size: 1rem;
     font-family: font_awesome_6_brandsregular;
     content: "\f16d"; // square-instagram
   }
 
   a[href*="//instagram.com/"]::before {
+    font-size: 1rem;
     font-family: font_awesome_6_brandsregular;
     content: "\f082"; // square-instagram
   }
 
   a[href*="//linkedin.com/"]::before {
+    font-size: 1rem;
     font-family: font_awesome_6_brandsregular;
     content: "\f08c"; // square-linkedin
   }
 
   a[href*="//facebook.com/"]::before {
+    font-size: 1rem;
     font-family: font_awesome_6_brandsregular;
     content: "\f082"; // square-facebook
   }
 
   a[href*="//tiktok.com/"]::before {
+    font-size: 1rem;
     font-family: font_awesome_6_brandsregular;
     content: "\f082"; // square-tiktok
   }

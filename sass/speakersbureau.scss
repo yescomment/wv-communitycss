@@ -48,24 +48,21 @@ body#databaseRecordPage.h-page-with-database-speakers-bureau {
   //   margin: 0;
   // }
 
+
   .icon {
     font-family: font_awesome_6_brandsregular;
   }
 
-  a[href*="//twitter.com/"],
-  a[href*="//instagram.com/"],
-  a[href*="//linkedin.com/"],
-  a[href*="//facebook.com/"],
-  a[href*="//tiktok.com/"] {
-    font-size: 0; // ick
-
-    &::before {
-      font-size: 1rem;
-      font-family: font_awesome_6_brandsregular;
-    }
-  }
-
   .links {
+    a {
+      font-size: 0; // ick
+
+      &::before {
+        font-size: 1rem;
+        font-family: font_awesome_6_brandsregular;
+      }
+    }
+
     a::before {
       content: "\f0ac"; // globe
     }

@@ -3,7 +3,6 @@
   src: url('fonts/fa-brands-regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
-
 }
 
 // DIRECTORY
@@ -37,6 +36,7 @@ body#databaseRecordPage.h-page-with-database-speakers-bureau {
 
       .detail {
         flex: 1
+        margin-left: 1em;
       }
     }
   }

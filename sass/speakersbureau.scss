@@ -65,23 +65,29 @@ body#databaseRecordPage.h-page-with-database-speakers-bureau {
     }
   }
 
-  a[href*="//twitter.com/"]::before {
-    content: "\f081"; // square-twitter
-  }
+  .links {
+    a::before {
+      content: "\f0ac"; // globe
+    }
 
-  a[href*="//instagram.com/"]::before {
-    content: "\e055"; // square-instagram
-  }
+    a[href*="//twitter.com/"]::before {
+      content: "\f081"; // square-twitter
+    }
 
-  a[href*="//linkedin.com/"]::before {
-    content: "\f08c"; // linkedin (no square variant)
-  }
+    a[href*="//instagram.com/"]::before {
+      content: "\e055"; // square-instagram
+    }
 
-  a[href*="//facebook.com/"]::before {
-    content: "\f082"; // square-facebook
-  }
+    a[href*="//linkedin.com/"]::before {
+      content: "\f08c"; // linkedin (no square variant)
+    }
 
-  a[href*="//tiktok.com/"]::before {
-    content: "\e07b"; // tiktok (no square variant as of 6.1)
+    a[href*="//facebook.com/"]::before {
+      content: "\f082"; // square-facebook
+    }
+
+    a[href*="//tiktok.com/"]::before {
+      content: "\e07b"; // tiktok (no square variant as of 6.1)
+    }
   }
 }

@@ -12,6 +12,16 @@ body#databaseRecordsPage.h-page-with-database-speakers-bureau {
 
 // INDIVIDUAL PROFILE
 body#databaseRecordPage.h-page-with-database-speakers-bureau {
+  .title-image-box {
+    aspect-ratio: 1/1;
+
+    .cropped-image-container,
+    .title-image-container {
+      height: 100%;
+      border-radius: 50%;
+    }
+  }
+
   .h-record-field-label {
     color: #2a2a68;
     font-weight: bold;

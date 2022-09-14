@@ -65,6 +65,9 @@ body#databaseRecordPage.h-page-with-database-speakers-bureau {
   }
 
   .links {
+    display: flex;
+    justify-content: space-around;
+
     a {
       font-size: 0; // ick
 
@@ -72,11 +75,6 @@ body#databaseRecordPage.h-page-with-database-speakers-bureau {
         font-size: 26px;
         font-family: "Font Awesome 5 Pro", font_awesome_6_brandsregular, "Font Awesome 5 Brands";
       }
-    }
-
-    .links {
-      display: flex;
-      justify-content: space-around;
     }
 
     a::before {

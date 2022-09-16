@@ -7,7 +7,19 @@
 
 // DIRECTORY
 body#databaseRecordsPage.h-page-with-database-speakers-bureau {
+  .h-card-with-database-speakers-bureau {
+    .card-byline,
+    .card-meta {
+      display: none;
+    }
+  }
 
+  .h-post-box-with-database-speakers-bureau {
+    .post-box-list-byline,
+    .post-list-post-box-meta {
+      display: none;
+    }
+  }
 }
 
 // SEARCH

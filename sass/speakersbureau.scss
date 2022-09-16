@@ -30,9 +30,12 @@ body#databaseRecordsPage.h-page-with-database-speakers-bureau #searchRecordsForm
   // fields that could _maybe_ work with an ::after
   #customFieldInput691788177757829603_control, // My Story includes
   #customFieldInput691788177757829601_control, // Why I Weave includes
-  #customFieldInput691788177756794195_control, // I Live In includes
   #customFieldInput691788177769229404_control { // Speaking Experience includes
     display: none;
+  }
+
+  #customFieldInput691788177756794195_control { // I Live In
+    
   }
 
 }

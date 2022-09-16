@@ -15,7 +15,9 @@ body#databaseRecordsPage.h-page-with-database-speakers-bureau #searchRecordsForm
 
   #searchRecordsForm_searcher_notWords_control,
   #tagFilterInput_control,
+  #tagFilters
   #memberFilterLabelSearchUserSearchInput_control,
+  #memberFilterLabels,
   #postedBetweenDates,
   #customFieldInput691788177757829604_control, // website
   #customFieldInput691788177756972965_control, // title
@@ -28,7 +30,6 @@ body#databaseRecordsPage.h-page-with-database-speakers-bureau #searchRecordsForm
   #customFieldInput691788177769229404_control, // Speaking Experience includes
   #searchSortOptions_control {
     display: none;
-    margin: 0;
   }
 
   #customFieldInput691788177756794195_control .form-label::after { // I Live In

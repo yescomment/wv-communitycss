@@ -10,6 +10,22 @@ body#databaseRecordsPage.h-page-with-database-speakers-bureau {
 
 }
 
+// SEARCH
+body#databaseRecordsPage.h-page-with-database-speakers-bureau #searchRecordsForm {
+  #tagFilterInput_control,
+  #memberFilterLabelSearchUserSearchInput_control,
+  #postedBetweenDates,
+  #customFieldInput691788177757829604_control, // website
+  #customFieldInput691788177756972965_control, // title
+  #customFieldInput691788177757829606_control, // LinkedIn
+  #customFieldInput691788177757829605_control, // Twitter
+  #customFieldInput691788177757829607_control, // Instagram
+  #customFieldInput691788177757829608_control, // Facebook
+  #searchSortOptions_control {
+    display: none;
+  }
+}
+
 // INDIVIDUAL PROFILE
 body#databaseRecordPage.h-page-with-database-speakers-bureau {
   .title-image-box {

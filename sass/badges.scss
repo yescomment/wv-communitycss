@@ -15,26 +15,26 @@ body .circle-labels {
     text-transform: uppercase;
     flex-direction: row;
     align-items: center;
-    /* LARGE VERSION */
-    max-width: min-content;
     white-space: break-spaces;
     text-align: left;
     position: relative;
-    height: 3em;
-    width: 3em;
+    height: 1.5em;
+    width: 1.5em;
     display: inline-flex;
     box-sizing: content-box;
+    margin: 0;
 
     &:hover {
       background-color: #242464;
       width: auto;
       color: white;
+      z-index: 1;
     }
 
     &::before {
       display: inline-block;
       content: '';
-      height: 3em; /* INLINE VERSION: 1em */
+      height: 100%;
       aspect-ratio: 1 / 1;
       color: #f99b1c;
       margin-right: 0.2em; /* approx 1 space */
@@ -43,6 +43,14 @@ body .circle-labels {
       background-repeat: no-repeat;
       background-position: 50% 50%;
     }
+  }
+}
+
+#memberProfilePage {
+  .h-member-badge {
+    height: 3em;
+    width: 3em;
+    max-width: min-content;
   }
 }
 

@@ -142,4 +142,10 @@ body#databaseRecordPage.h-page-with-database-speakers-bureau {
       content: "\e07b"; // tiktok (no square variant as of 6.1)
     }
   }
+
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }

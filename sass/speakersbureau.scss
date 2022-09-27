@@ -21,11 +21,18 @@ body#databaseRecordsPage.h-page-with-database-speakers-bureau {
     }
   }
 
-  // New/Trending/Following buttons
-  #homePageButtons li#homePageButtons_1_buttonContainer,
+  // Trending & Following buttons
   #homePageButtons li#homePageButtons_2_buttonContainer,
   #homePageButtons li#homePageButtons_3_buttonContainer {
     display: none;
+  }
+
+  // Change "New" to "Gallery" in super icky way
+  #homePageButtons li#homePageButtons_1_buttonContainer {
+    font-size: 0;
+    &::after {
+      content: 'Gallery';
+    }
   }
 
   // Search button
@@ -34,8 +41,6 @@ body#databaseRecordsPage.h-page-with-database-speakers-bureau {
 
     .button {
       width: 100%;
-      border-radius: 1000px;
-      border: none;
     }
   }
 }

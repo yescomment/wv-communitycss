@@ -20,6 +20,18 @@ body#databaseRecordsPage.h-page-with-database-speakers-bureau {
       display: none;
     }
   }
+
+  // New/Trending/Following buttons
+  #homePageButtons li#homePageButtons_1_buttonContainer,
+  #homePageButtons li#homePageButtons_2_buttonContainer,
+  #homePageButtons li#homePageButtons_3_buttonContainer {
+    display: none;
+  }
+
+  // Search button
+  #homePageButtons li#homePageButtons_4_buttonContainer {
+    width: 100%;
+  }
 }
 
 // SEARCH

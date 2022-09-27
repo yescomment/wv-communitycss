@@ -1,9 +1,12 @@
 {
   "scripts": {
     "build": "sass sass:public",
-    "dev": "sass --watch sass:public"
+    "dev": "sass --watch sass:public & http-server --port 3000"
+  },
+  "dependencies": {
+    "sass": "^1.54.5"
   },
   "devDependencies": {
-    "sass": "^1.54.5"
+    "http-server": "^14.1.1"
   }
 }

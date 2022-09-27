@@ -27,6 +27,9 @@ body#databaseRecordsPage.h-page-with-database-speakers-bureau {
 
     li {
       flex: 1;
+      * {
+        width: 100%;
+      }
     }
   }
 

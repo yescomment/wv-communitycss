@@ -39,11 +39,15 @@ body .circle-labels {
       color: #f99b1c;
       margin-right: 0.2em; /* approx 1 space */
 
-      background-image: url("https://community.weareweavers.org/ws/wcbadge_noicon.svg"); /* generic icon */
+      // icons specified below
       background-repeat: no-repeat;
       background-position: 50% 50%;
     }
   }
+}
+
+.h-member-badge::before {
+  background-image: url("https://community.weareweavers.org/ws/wcbadge_noicon.svg"); /* generic icon */
 }
 
 .h-member-badge-700797588612641986::before {

@@ -43,7 +43,7 @@ body#databaseRecordsPage.h-page-with-database-speakers-bureau {
   #homePageButtons li#homePageButtons_1_buttonContainer a {
     font-size: 0;
     &::after {
-      font-size: 1em;
+      font-size: .9rem; // match .button-group .button CS default
       content: 'Gallery';
     }
   }

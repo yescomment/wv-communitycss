@@ -31,6 +31,11 @@ body#databaseRecordsPage.h-page-with-database-speakers-bureau {
   // Search button
   #homePageButtons li#homePageButtons_4_buttonContainer {
     width: 100%;
+    border-radius: 1000px;
+
+    .button {
+      width: 100%;
+    }
   }
 }
 

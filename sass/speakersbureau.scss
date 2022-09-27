@@ -21,6 +21,15 @@ body#databaseRecordsPage.h-page-with-database-speakers-bureau {
     }
   }
 
+  #homePageButtons {
+    display: flex;
+    flex-direction: row;
+
+    .button {
+      flex: 1;
+    }
+  }
+
   // Trending & Following buttons
   #homePageButtons li#homePageButtons_2_buttonContainer,
   #homePageButtons li#homePageButtons_3_buttonContainer {
@@ -28,19 +37,11 @@ body#databaseRecordsPage.h-page-with-database-speakers-bureau {
   }
 
   // Change "New" to "Gallery" in super icky way
-  #homePageButtons li#homePageButtons_1_buttonContainer {
+  #homePageButtons li#homePageButtons_1_buttonContainer a {
     font-size: 0;
     &::after {
+      font-size: 1em;
       content: 'Gallery';
-    }
-  }
-
-  // Search button
-  #homePageButtons li#homePageButtons_4_buttonContainer {
-    width: 100%;
-
-    .button {
-      width: 100%;
     }
   }
 }

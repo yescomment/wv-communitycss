@@ -1,0 +1,58 @@
+.circle-labels {
+  display: inline-flex;
+}
+
+.circle-labels .h-member-badge {
+  font-size: 0.9em;
+  color: transparent;
+  background-color: transparent;
+  text-transform: uppercase;
+  flex-direction: row;
+  align-items: center;
+  /* LARGE VERSION */
+  max-width: min-content;
+  white-space: break-spaces;
+  text-align: left;
+  position: relative;
+  height: 3em;
+  width: 3em;
+  display: inline-flex;
+  box-sizing: content-box;
+}
+
+.circle-labels .h-member-badge:hover {
+  background-color: #242464;
+  width: auto;
+  color: white;
+}
+
+.h-member-badge::before {
+  display: inline-block;
+  content: '';
+  height: 3em; /* INLINE VERSION: 1em */
+  aspect-ratio: 1 / 1;
+  color: #f99b1c;
+  margin-right: 0.2em; /* approx 1 space */
+}
+
+.h-member-badge::before {
+  background-image: url("/ws/wcbadge_noicon.svg"); /* generic icon */
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.h-member-badge-700797588612641986::before {
+  background-image: url("/ws/wcbadge_locallead.svg");
+}
+
+.h-member-badge-700797588612641986::before {
+  background-image: url("/ws/wcbadge_locallead.svg");
+}
+
+.h-member-badge-694322184511322440::before {
+  background-image: url("/ws/wcbadge_circlesfacilitator.svg");
+}
+
+.h-member-badge-701079063187720697::before {
+  background-image: url("/ws/wcbadge_welcomeweaver.svg");
+}

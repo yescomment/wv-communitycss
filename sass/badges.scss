@@ -4,8 +4,8 @@
 // #memberSnapshot_ajaxBody https://community.weareweavers.org (hover member name)
 // #comments https://community.weareweavers.org/db/speakers-bureau/record/maria-oah
 
-body .circle-labels {
-  // body = specificity hack
+#pageContentContainer .circle-labels {
+  // #pageContentContainer = specificity hack
   display: inline-flex;
 
   .h-member-badge {
@@ -46,7 +46,8 @@ body .circle-labels {
   }
 }
 
-#memberProfilePage {
+#memberProfilePage .circle-labels {
+  // larger on Profile pages
   .h-member-badge {
     height: 3em;
     width: 3em;

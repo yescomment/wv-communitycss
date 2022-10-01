@@ -6,4 +6,10 @@ body#custom_page_697841506500523231 {
     font-weight: bold;
     text-align: center;
   }
+
+  a[href*='//community.weareweavers.org/member/'] ~ img {
+    aspect-ratio: 1/1;
+    object-fit: fill;
+    border-radius: 50%;
+  }
 }

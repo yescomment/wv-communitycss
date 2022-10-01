@@ -1,4 +1,9 @@
 // community.weareweavers.org/pages/leadership only
 body#custom_page_697841506500523231 {
-  /* test */
+  // funky way to target member names
+  a[href*='//community.weareweavers.org/member/'] > p {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+  }
 }

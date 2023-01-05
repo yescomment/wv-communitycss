@@ -92,6 +92,14 @@ body#databaseRecordsPage.h-page-with-database-speakers-bureau #searchRecordsForm
       font-style: italic;
     }
   }
+
+  #customFieldOptions694040710209437673_control // Allows me to talk about
+  {
+    .form-label::after {
+      content: 'Note: will return only speakers who match about ALL your selections, not ANY of them. We recommend multiple searches.';
+      font-style: italic;
+    }
+  }
 }
 
 // INDIVIDUAL PROFILE

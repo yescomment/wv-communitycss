@@ -93,10 +93,10 @@ body#databaseRecordsPage.h-page-with-database-speakers-bureau #searchRecordsForm
     }
   }
 
-  #customFieldOptions694040710209437673_control // Allows me to talk about
+  #customFieldOptions694040710209437673        // Allows me to talk about
   {
-    &::after {
-      content: 'Note: will return only speakers who match about ALL your selections, not ANY of them. We recommend multiple searches.';
+    .form-label::after {
+      content: 'Note: will return only speakers who match about ALL your selections. Try multiple searches if your work spans many topics.';
       font-style: italic;
       display: block;
     }

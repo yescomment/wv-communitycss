@@ -95,9 +95,10 @@ body#databaseRecordsPage.h-page-with-database-speakers-bureau #searchRecordsForm
 
   #customFieldOptions694040710209437673_control // Allows me to talk about
   {
-    .form-label::after {
+    &::after {
       content: 'Note: will return only speakers who match about ALL your selections, not ANY of them. We recommend multiple searches.';
       font-style: italic;
+      display: block;
     }
   }
 }

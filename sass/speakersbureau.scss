@@ -60,6 +60,11 @@ body#databaseRecordsPage.h-page-with-database-speakers-bureau #searchRecordsForm
     font-weight: bold;
   }
 
+  .checkbox-list-items .form-control-item.checkbox-item.has-label {
+    // display: block; // got too tall
+    font-size: 1rem;
+  }
+
   #searchRecordsForm_searcher_notWords_control,
   #tagFilterInput_control,
   #tagFilters,

@@ -55,6 +55,11 @@ body#databaseRecordsPage.h-page-with-database-speakers-bureau {
 // SEARCH
 body#databaseRecordsPage.h-page-with-database-speakers-bureau #searchRecordsForm {
 
+  .form-label {
+    color: $wv-blue;
+    font-weight: bold;
+  }
+
   #searchRecordsForm_searcher_notWords_control,
   #tagFilterInput_control,
   #tagFilters,

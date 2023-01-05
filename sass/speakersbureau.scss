@@ -77,7 +77,6 @@ body#databaseRecordsPage.h-page-with-database-speakers-bureau #searchRecordsForm
   #customFieldInput691788177757829605_control, // Twitter
   #customFieldInput691788177757829607_control, // Instagram
   #customFieldInput691788177757829608_control, // Facebook
-  #customFieldInput691788177756794195_control, // I Live In
   #customFieldInput702908818335910049_control, // My Story includes
   #customFieldInput691788177757829601_control, // Why I Weave includes
   #customFieldInput691788177769229404_control, // Speaking Experience includes
@@ -86,7 +85,13 @@ body#databaseRecordsPage.h-page-with-database-speakers-bureau #searchRecordsForm
     display: none;
   }
 
-
+  #customFieldInput691788177756794195_control  // I Live In
+  {
+    .form-label::after {
+      content: ' includes';
+      font-style: italic;
+    }
+  }
 }
 
 // INDIVIDUAL PROFILE

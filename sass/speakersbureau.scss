@@ -180,23 +180,28 @@ body#databaseRecordPage.h-page-with-database-speakers-bureau {
       content: "\f0c1"; // link
     }
 
-    a[href*="//twitter.com/"]::before {
+    a[href*="//twitter.com/"]::before,
+    a[href*="//www.twitter.com/"]::before {
       content: "\f081"; // square-twitter
     }
 
-    a[href*="//instagram.com/"]::before {
+    a[href*="//instagram.com/"]::before,
+    a[href*="//www.instagram.com/"]::before {
       content: "\e055"; // square-instagram
     }
 
-    a[href*="//linkedin.com/"]::before {
+    a[href*="//linkedin.com/"]::before,
+    a[href*="//www.linkedin.com/"]::before {
       content: "\f08c"; // linkedin (no square variant)
     }
 
-    a[href*="//facebook.com/"]::before {
+    a[href*="//facebook.com/"]::before,
+    a[href*="//www.facebook.com/"]::before {
       content: "\f082"; // square-facebook
     }
 
-    a[href*="//tiktok.com/"]::before {
+    a[href*="//tiktok.com/"]::before,
+    a[href*="//www.tiktok.com/"]::before {
       content: "\e07b"; // tiktok (no square variant as of 6.1)
     }
   }

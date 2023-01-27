@@ -28,6 +28,9 @@ body#databaseRecordPage.h-page-with-database-speakers-bureau {
 
 // DIRECTORY
 body#databaseRecordsPage.h-page-with-database-speakers-bureau {
+  .buttons {
+    justify-content: center;
+  }
   .h-card-with-database-speakers-bureau {
     .card-byline,
     .card-meta {

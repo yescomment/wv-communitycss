@@ -72,56 +72,55 @@ body#databaseRecordsPage.h-page-with-database-speakers-bureau {
       content: 'Gallery';
     }
   }
-}
 
-// SEARCH
-body#databaseRecordsPage.h-page-with-database-speakers-bureau #searchRecordsForm {
-
-  .form-label {
-    color: $wv-blue;
-    font-weight: bold;
-  }
-
-  .checkbox-list-items .form-control-item.checkbox-item.has-label {
-    // display: block; // got too tall
-    font-size: 1rem;
-  }
-
-  #searchRecordsForm_searcher_notWords_control,
-  #tagFilterInput_control,
-  #tagFilters,
-  #memberFilterLabelSearchUserSearchInput_control,
-  #memberFilterLabels,
-  #postedBetweenDates,
-  #customFieldInput691788177757829604_control, // website
-  #customFieldInput691788177756972965_control, // title
-  #customFieldInput691788177757829606_control, // LinkedIn
-  #customFieldInput691788177757829605_control, // Twitter
-  #customFieldInput691788177757829607_control, // Instagram
-  #customFieldInput691788177757829608_control, // Facebook
-  #customFieldInput702908818335910049_control, // My Story includes
-  #customFieldInput691788177757829601_control, // Why I Weave includes
-  #customFieldInput691788177769229404_control, // Speaking Experience includes
-  #searchSortOptions_control
-  {
-    display: none;
-  }
-
-  #customFieldInput691788177756794195_control  // I Live In
-  {
-    .form-label::after {
-      content: ' includes';
-      font-style: italic;
+  // ADVANCED SEARCH
+  #searchRecordsForm {
+    .form-label {
+      color: $wv-blue;
+      font-weight: bold;
     }
-  }
 
-  label[for=customFieldOptions694040710209437673] // Allows me to talk about
-  {
-    .form-label::after {
-      content: 'Note: will return only speakers who match about ALL your selections. Try multiple searches if your work spans many topics.';
-      font-style: italic;
-      display: block;
-      margin-top: 0.5em;
+    .checkbox-list-items .form-control-item.checkbox-item.has-label {
+      // display: block; // got too tall
+      font-size: 1rem;
+    }
+
+    #searchRecordsForm_searcher_notWords_control,
+    #tagFilterInput_control,
+    #tagFilters,
+    #memberFilterLabelSearchUserSearchInput_control,
+    #memberFilterLabels,
+    #postedBetweenDates,
+    #customFieldInput691788177757829604_control, // website
+    #customFieldInput691788177756972965_control, // title
+    #customFieldInput691788177757829606_control, // LinkedIn
+    #customFieldInput691788177757829605_control, // Twitter
+    #customFieldInput691788177757829607_control, // Instagram
+    #customFieldInput691788177757829608_control, // Facebook
+    #customFieldInput702908818335910049_control, // My Story includes
+    #customFieldInput691788177757829601_control, // Why I Weave includes
+    #customFieldInput691788177769229404_control, // Speaking Experience includes
+    #searchSortOptions_control
+    {
+      display: none;
+    }
+
+    #customFieldInput691788177756794195_control  // I Live In
+    {
+      .form-label::after {
+        content: ' includes';
+        font-style: italic;
+      }
+    }
+
+    label[for=customFieldOptions694040710209437673] // Allows me to talk about
+    {
+      .form-label::after {
+        content: 'Note: will return only speakers who match about ALL your selections. Try multiple searches if your work spans many topics.';
+        font-style: italic;
+        display: block;
+        margin-top: 0.5em;
+      }
     }
   }
 }

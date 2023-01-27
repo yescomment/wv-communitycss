@@ -178,34 +178,44 @@ body#databaseRecordPage.h-page-with-database-speakers-bureau {
       content: "\f0c1"; // link
     }
 
-    a[href*="//twitter.com/"]::before,
-    a[href*="//www.twitter.com/"]::before {
+    a[href*="//twitter.com/"],
+    a[href*="//www.twitter.com/"] {
       font-size: 0; // ick
-      content: "\f081"; // square-twitter
+      &::before {
+        content: "\f081"; // square-twitter
+      }
     }
 
-    a[href*="//instagram.com/"]::before,
-    a[href*="//www.instagram.com/"]::before {
+    a[href*="//instagram.com/"],
+    a[href*="//www.instagram.com/"] {
       font-size: 0; // ick
-      content: "\e055"; // square-instagram
+      &::before {
+        content: "\e055"; // square-instagram
+      }
     }
 
-    a[href*="//linkedin.com/"]::before,
-    a[href*="//www.linkedin.com/"]::before {
+    a[href*="//linkedin.com/"],
+    a[href*="//www.linkedin.com/"] {
       font-size: 0; // ick
-      content: "\f08c"; // linkedin (no square variant)
+      &::before {
+        content: "\f08c"; // linkedin (no square variant)
+      }
     }
 
-    a[href*="//facebook.com/"]::before,
-    a[href*="//www.facebook.com/"]::before {
+    a[href*="//facebook.com/"],
+    a[href*="//www.facebook.com/"] {
       font-size: 0; // ick
-      content: "\f082"; // square-facebook
+      &::before {
+        content: "\f082"; // square-facebook
+      }
     }
 
-    a[href*="//tiktok.com/"]::before,
-    a[href*="//www.tiktok.com/"]::before {
+    a[href*="//tiktok.com/"],
+    a[href*="//www.tiktok.com/"] {
       font-size: 0; // ick
-      content: "\e07b"; // tiktok (no square variant as of 6.1)
+      &::before {
+        content: "\e07b"; // tiktok (no square variant as of 6.1)
+      }
     }
   }
 

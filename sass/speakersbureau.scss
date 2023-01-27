@@ -165,6 +165,7 @@ body#databaseRecordPage.h-page-with-database-speakers-bureau {
 
   .links {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 
     a {

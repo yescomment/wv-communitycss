@@ -7,6 +7,25 @@
   font-style: normal;
 }
 
+// DIRECTORY & PROFILES
+body#databaseRecordsPage.h-page-with-database-speakers-bureau,
+body#databaseRecordPage.h-page-with-database-speakers-bureau {
+  .buttons {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 0.5em;
+    .button {
+      padding: 0.5rem;
+    }
+    .fullwidth {
+      flex-basis: 100%;
+    }
+  }
+}
+
 // DIRECTORY
 body#databaseRecordsPage.h-page-with-database-speakers-bureau {
   .h-card-with-database-speakers-bureau {
@@ -217,21 +236,6 @@ body#databaseRecordPage.h-page-with-database-speakers-bureau {
       &::before {
         content: "\e07b"; // tiktok (no square variant as of 6.1)
       }
-    }
-  }
-
-  .buttons {
-    margin: 1rem 0;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 0.5em;
-    .button {
-      padding: 0.5rem;
-    }
-    .fullwidth {
-      flex-basis: 100%;
     }
   }
 }

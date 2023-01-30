@@ -3,3 +3,10 @@
     display: none;
   }
 }
+
+// ideal: remove div in sidebar containing remote/in-person toggle
+// fallback: just remove the remote/in-person toggle (leaves some empty padding)
+div.absolute div.py-5:has( div[x-ref=presence] ),
+div.absolute div[x-ref=presence] {
+  display: none;
+}

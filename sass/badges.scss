@@ -4,6 +4,13 @@
 // #memberSnapshot_ajaxBody https://community.weareweavers.org (hover member name)
 // #comments https://community.weareweavers.org/db/speakers-bureau/record/maria-oah
 
+// TODO: this isn't just badges anymore
+body.h-custom-page {
+  iframe {
+    width: 100%;
+  }
+}
+
 #pageContentContainer .circle-labels {
   // #pageContentContainer = specificity hack
   display: inline-flex;

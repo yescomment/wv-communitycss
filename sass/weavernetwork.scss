@@ -10,3 +10,7 @@ div.absolute div.py-5:has( div[x-ref=presence] ),
 div.absolute div[x-ref=presence] {
   display: none;
 }
+
+div.hero .rounded-lg {
+  box-shadow: 0 0 3px !important;
+}

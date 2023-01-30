@@ -1,1 +1,5 @@
-// navbar overrides TK
+#topnav {
+  a[href$=/login] {
+    display: none;
+  }
+}

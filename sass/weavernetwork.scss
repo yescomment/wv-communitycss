@@ -1,7 +1,9 @@
 #topnav {
+
   a[href$=\/login] {
     display: none;
   }
+
 }
 
 // ideal: remove div in sidebar containing remote/in-person toggle

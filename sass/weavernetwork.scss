@@ -11,6 +11,14 @@ div.absolute div[x-ref=presence] {
   display: none;
 }
 
-div.hero .rounded-lg {
-  box-shadow: 0 0 3px !important;
+div.hero {
+
+  h1 {
+    margin-bottom: 0.2em;
+  }
+
+  .rounded-lg {
+    box-shadow: 0 0 3px !important;
+  }
+
 }

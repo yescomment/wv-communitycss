@@ -1,0 +1,60 @@
+@import './colors';
+
+@font-face {
+  font-family: 'font_awesome_6_brandsregular';
+  src: url('fonts/fa-brands-regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// DIRECTORY
+body#databaseRecordsPage.h-page-with-database-weaving-in-400-seconds {
+  .h-card-with-database-speakers-bureau {
+    .card-byline,
+    .card-meta {
+      display: none;
+    }
+  }
+
+  .h-post-box-with-database-speakers-bureau {
+    .post-box-list-byline,
+    .post-list-post-box-meta {
+      display: none;
+    }
+  }
+
+  // Trending & Following buttons
+  #homePageButtons li#homePageButtons_2_buttonContainer,
+  #homePageButtons li#homePageButtons_3_buttonContainer {
+    display: none;
+  }
+}
+
+// INDIVIDUAL PROFILE
+body#databaseRecordPage.h-page-with-database-weaving-in-400-seconds {
+  h3 {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+
+  .title-image-box {
+    aspect-ratio: 1/1;
+
+    .cropped-image-container,
+    .title-image-container {
+      height: 100%;
+      border-radius: 50%;
+      border: 12px solid #2a2a68;
+    }
+  }
+
+  .h-record-field-label {
+    color: #2a2a68;
+    font-weight: bold;
+  }
+
+  .content-header {
+    // hide last editor
+    display: none;
+  }
+}

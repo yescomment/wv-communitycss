@@ -1,3 +1,6 @@
+@import './colors';
+
+
 // BADGES
 
 // Known presentations:
@@ -88,9 +91,58 @@ body.h-custom-page {
   background-image: url("https://community.weavers.org/ws/wcbadge_groupfacilvol.svg");
 }
 
+
 // MEMBER DIRECTORY
 
 // hide roles on community.weavers.org/members
 .h-member-directory-circles-column {
   display: none;
+}
+
+
+// WEAVING IN 400
+
+// Win400 Directory
+body#databaseRecordsPage.h-page-with-database-weaving-in-400-seconds {
+  .h-card-with-database-weaving-in-400-seconds {
+    .card-byline,
+    .card-meta {
+      display: none;
+    }
+  }
+
+  .h-post-box-with-database-weaving-in-400-seconds {
+    .post-box-list-byline,
+    .post-list-post-box-meta {
+      display: none;
+    }
+  }
+
+  // Trending & Following buttons
+  #homePageButtons li#homePageButtons_2_buttonContainer,
+  #homePageButtons li#homePageButtons_3_buttonContainer {
+    display: none;
+  }
+}
+
+// Win400 Individual Profile
+body#databaseRecordPage.h-page-with-database-weaving-in-400-seconds {
+  h3 {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+  }
+
+  .h-record-field-label {
+    color: #2a2a68;
+    font-weight: bold;
+  }
+
+  .h-record-field-row-for-SPEAKER {
+    display: none;
+  }
+
+  .content-header {
+    // hide last editor
+    display: none;
+  }
 }

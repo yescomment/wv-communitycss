@@ -95,7 +95,9 @@ body.h-custom-page {
 // MEMBER DIRECTORY
 
 // hide roles on community.weavers.org/members
-.h-member-directory-circles-column {
+// while keeping total count and link to advanced search
+// NOTE: if this approach breaks, instead could target [href]s that include `role=`
+.h-member-directory-circles-column .h-member-directory-nav-link:not(:first-child):not(:last-child) {
   display: none;
 }
 

@@ -178,6 +178,11 @@ body#databaseRecordPage.h-page-with-database-speakers-bureau { // PROFILES
       flex-basis: 100%;
     }
   }
+
+  // hide emoji reactions
+  .card-reaction-bar {
+    display: none;
+  }
 }
 
 // SB Directory

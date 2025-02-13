@@ -179,8 +179,10 @@ body#databaseRecordPage.h-page-with-database-speakers-bureau { // PROFILES
     }
   }
 
-  // hide emoji reactions
-  .card-reaction-bar {
+  // hide viewcount, members online, & emoji reactions
+  .h-metadata,
+  #homeMetadata,
+  .card-reaction-bar, {
     display: none;
   }
 }
